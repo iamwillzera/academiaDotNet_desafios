@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Desafio1\\Desafio1.csproj",
+      "projectUniqueName": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\Desafio1\\Desafio1.csproj",
       "projectName": "Desafio1",
-      "projectPath": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Desafio1\\Desafio1.csproj",
+      "projectPath": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\Desafio1\\Desafio1.csproj",
       "packagesPath": "C:\\Users\\thayl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Desafio1\\obj\\",
+      "outputPath": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\Desafio1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
