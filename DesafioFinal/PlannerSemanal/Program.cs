@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using PlannerSemanal.Models;
+
 namespace PlannerSemanal
 {
     public class Program
@@ -8,6 +11,11 @@ namespace PlannerSemanal
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            //String de conexão
+            builder.Services.AddDbContext<Contexto>
+                (options => options.UseSqlServer
+                ("Data Source=localhost;initial Catalog=PLANNER;User ID=sa;password=admin1;language=Portuguese;Trusted_Connection=True;TrustServerCertificate=True;"));
 
             var app = builder.Build();
 
