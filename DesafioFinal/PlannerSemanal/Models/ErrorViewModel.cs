@@ -1,4 +1,4 @@
-namespace AgendaTarefas.Models
+namespace PlannerSemanal.Models
 {
     public class ErrorViewModel
     {

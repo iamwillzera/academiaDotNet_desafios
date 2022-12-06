@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AgendaTarefas")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PlannerSemanal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("AgendaTarefas")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AgendaTarefas")]
+[assembly: System.Reflection.AssemblyProductAttribute("PlannerSemanal")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PlannerSemanal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

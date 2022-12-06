@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaTarefas", "AgendaTarefas.csproj", "{085B8220-926C-44C3-9723-46A05C0ACF3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlannerSemanal", "PlannerSemanal.csproj", "{29DB3768-251C-478F-90BF-26B8BF3E7D6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{085B8220-926C-44C3-9723-46A05C0ACF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{085B8220-926C-44C3-9723-46A05C0ACF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{085B8220-926C-44C3-9723-46A05C0ACF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{085B8220-926C-44C3-9723-46A05C0ACF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DB3768-251C-478F-90BF-26B8BF3E7D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DB3768-251C-478F-90BF-26B8BF3E7D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DB3768-251C-478F-90BF-26B8BF3E7D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DB3768-251C-478F-90BF-26B8BF3E7D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {038B4EB8-5A9D-4F68-BE7B-DC14EDC24F43}
+		SolutionGuid = {5CE3E788-55EE-4581-A43E-686C1BBF005C}
 	EndGlobalSection
 EndGlobal

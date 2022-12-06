@@ -1,4 +1,4 @@
-namespace AgendaTarefas
+namespace PlannerSemanal
 {
     public class Program
     {

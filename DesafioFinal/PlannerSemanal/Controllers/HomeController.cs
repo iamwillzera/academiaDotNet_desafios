@@ -1,8 +1,8 @@
-﻿using AgendaTarefas.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using PlannerSemanal.Models;
 using System.Diagnostics;
 
-namespace AgendaTarefas.Controllers
+namespace PlannerSemanal.Controllers
 {
     public class HomeController : Controller
     {
