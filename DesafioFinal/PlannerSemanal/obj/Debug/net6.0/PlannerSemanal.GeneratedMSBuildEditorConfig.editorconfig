@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/thayl/OneDrive/Área de Trabalho/Developer/academiaDotNet_desafios/DesafioFinal/PlannerSemanal/Views/Atividade/AtualizarAtividade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXEF0dWFsaXphckF0aXZpZGFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thayl/OneDrive/Área de Trabalho/Developer/academiaDotNet_desafios/DesafioFinal/PlannerSemanal/Views/Atividade/CriarAtividade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXENyaWFyQXRpdmlkYWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/thayl/OneDrive/Área de Trabalho/Developer/academiaDotNet_desafios/DesafioFinal/PlannerSemanal/Views/Atividade/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/thayl/OneDrive/Área de Trabalho/Developer/academiaDotNet_desafios/DesafioFinal/PlannerSemanal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thayl/OneDrive/Área de Trabalho/Developer/academiaDotNet_desafios/DesafioFinal/PlannerSemanal/Views/Shared/Components/ListaAtividades/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdGFBdGl2aWRhZGVzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/thayl/OneDrive/Área de Trabalho/Developer/academiaDotNet_desafios/DesafioFinal/PlannerSemanal/Views/Shared/Error.cshtml]

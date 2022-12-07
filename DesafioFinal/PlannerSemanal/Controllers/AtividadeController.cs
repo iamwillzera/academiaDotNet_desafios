@@ -38,5 +38,59 @@ namespace PlannerSemanal.Controllers
             return listaDatas;
         }
 
+        [HttpGet]
+        public IActionResult CriarAtividade(string dataAtividade)
+        {
+            Atividade atividade = new Atividade
+            {
+                Data = dataAtividade
+            };
+            return View(atividade);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CriarAtividade(Atividade atividade)
+        {
+            if (ModelState.IsValid)
+            {
+                _contexto.Atividades.Add(atividade);
+                await _contexto.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(atividade);
+        }
+        [HttpGet]
+        public async Task<IActionResult> AtualizarAtividade(int atividadeId)
+        {
+            Atividade atividade = await _contexto.Atividades.FindAsync(atividadeId);
+
+            if (atividade == null)
+                return NotFound();
+
+            return View(atividade);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AtualizarAtividade(Atividade atividade)
+        {
+            if (ModelState.IsValid)
+            {
+                _contexto.Update(atividade);
+                await _contexto.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(atividade);
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> ExcluirAtividade(int atividadeId)
+        {
+            Atividade atividade = await _contexto.Atividades.FindAsync(atividadeId);
+            _contexto.Atividades.Remove(atividade);
+            await _contexto.SaveChangesAsync();
+            return Json(true);
+        }
     }
 }
