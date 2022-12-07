@@ -20,7 +20,7 @@ namespace PlannerSemanal.Controllers
         private List<DataViewModel> BuscarDatas()
         {
             DateTime dataAtual = DateTime.Now;
-            DateTime dataLimite = DateTime.Now.AddDays(10);
+            DateTime dataLimite = DateTime.Now.AddDays(7);
             int qtdeDias = 0;
             DataViewModel data;
             List<DataViewModel> listaDatas = new List<DataViewModel>();
@@ -88,6 +88,7 @@ namespace PlannerSemanal.Controllers
         public async Task<JsonResult> ExcluirAtividade(int atividadeId)
         {
             Atividade atividade = await _contexto.Atividades.FindAsync(atividadeId);
+
             _contexto.Atividades.Remove(atividade);
             await _contexto.SaveChangesAsync();
             return Json(true);
