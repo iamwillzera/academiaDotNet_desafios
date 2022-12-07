@@ -1,5 +1,4 @@
 ﻿@model IEnumerable<PlannerSemanal.Models.DataViewModel>
-<script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
 
 @{
     ViewData["Title"] = "Meu planner";
@@ -30,6 +29,7 @@
         </div>
     </div>
 }
+
 <div class="modal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -40,7 +40,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p>Tem certeza que deseja prosseguir com a exclusão da atividade <text class="nomeAtividade"></text> ? </p>
+                <p>Tem certeza que deseja prosseguir com a exclusão da atividade <text class="nomeAtividade"></text>? </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-secondary btnFechar" data-dismiss="modal">Não</button>
