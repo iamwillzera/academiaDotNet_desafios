@@ -51,28 +51,28 @@
 </div>
 
 @section Scripts {
-    <script>
-        function ConfirmarExclusao(atividadeId, nomeAtividade) {
-            $(".nomeAtividade").text(nomeAtividade);
-            $(".modal").modal();
+<script>
+    function ConfirmarExclusao(atividadeId, nomeAtividade) {
+        $(".nomeAtividade").text(nomeAtividade);
+        $(".modal").modal();
 
-            $(".btnExcluir").on('click', function () {
-                $.ajax({
-                    url: 'Atividades/ExcluirAtividade',
-                    method: 'POST',
-                    data: { atividadeId: atividadeId },
-                    success: function (data) {
-                        $(".modal").modal('hide');
-                        location.reload(true);
-                    }
-                });
+        $(".btnExcluir").on('click', function () {
+            $.ajax({
+                url: 'Atividade/ExcluirAtividade',
+                method: 'POST',
+                data: { atividadeId: atividadeId },
+                success: function (data) {
+                    $(".modal").modal('hide');
+                    location.reload(true);
+                }
             });
+        });
 
-            $('.btnFechar').on('click', function () {
-                atividadeId = null;
-                nomeAtividade = null;
-                $(".modal").modal('hide');
-            });
-        }
-    </script>
+        $('.btnFechar').on('click', function () {
+            atividadeId = null;
+            nomeAtividade = null;
+            $(".modal").modal('hide');
+        });
+    }
+</script>
 }

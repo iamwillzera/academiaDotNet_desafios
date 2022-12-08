@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PlannerSemanal.Models;
 
 namespace PlannerSemanal.Controllers
