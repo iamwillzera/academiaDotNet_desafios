@@ -4,7 +4,7 @@
     Layout = null;
 }
 
-<div class="border border-light shadow rounded rounded-lg p-4">
+<div class="border border-light shadow rounded rounded-lg p-4" align="center">
     @if (Model.Count() > 0)
     {
         <ul class="list-group">
@@ -16,7 +16,7 @@
                             <span class="badge badge-info">@Html.DisplayFor(modelItem => item.Horario)</span>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-6" align="left">
                             @Html.DisplayFor(modelItem => item.Nome)
                         </div>
 
