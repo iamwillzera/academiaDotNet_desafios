@@ -286,3 +286,4 @@ C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\Desa
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll

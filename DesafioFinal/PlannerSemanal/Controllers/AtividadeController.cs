@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PlannerSemanal.Models;
+using Microsoft.AspNetCore;
 
 namespace PlannerSemanal.Controllers
 {
@@ -20,8 +21,8 @@ namespace PlannerSemanal.Controllers
 
         private List<DataViewModel> BuscarDatas()
         {
-            DateTime dataAtual = DateTime.Now;
-            DateTime dataLimite = DateTime.Now.AddDays(7);
+            DateTime dataAtual = DateTime.Now; //dataAtual sempre será valor do dia de hoje
+            DateTime dataLimite = DateTime.Now.AddDays(8); //adicionando 7 dias para exibição, além da data atual
             int qtdeDias = 0;
             DataViewModel data;
             List<DataViewModel> listaDatas = new List<DataViewModel>();

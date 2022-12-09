@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PlannerSemanal.Models;
 
+
 namespace PlannerSemanal
 {
     public class Program
@@ -36,7 +37,7 @@ namespace PlannerSemanal
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Atividade}/{action=Index}/{id?}");
+                pattern: "{controller=Atividade}/{action=Index}/{id?}"); //Direciona página inicial para a View Atividade
 
             app.Run();
         }
