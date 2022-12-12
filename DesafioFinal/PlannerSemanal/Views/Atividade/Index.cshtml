@@ -52,15 +52,16 @@
 
 @section Scripts {
     <script>
-        function ConfirmarExclusao(atividadeId, nomeAtividade) {
+        function ConfirmarExclusao(AtividadeId, nomeAtividade) {
             $(".nomeAtividade").text(nomeAtividade);
             $(".modal").modal();
 
             $(".btnExcluir").on('click', function () {
                 $.ajax({
-                    url: 'View/Atividade/ExcluirAtividade',
+                    url: 'Atividade/ExcluirAtividade',
                     method: 'POST',
-                    data: { atividadeId: atividadeId },
+                    data: { AtividadeId: AtividadeId },
+                    dataType: "json",
                     success: function (data) {
                         $(".modal").modal('hide');
                         location.reload(true);
@@ -69,7 +70,7 @@
             });
 
             $('.btnFechar').on('click', function () {
-                atividadeId = null;
+                AtividadeId = null;
                 nomeAtividade = null;
                 $(".modal").modal('hide');
             });

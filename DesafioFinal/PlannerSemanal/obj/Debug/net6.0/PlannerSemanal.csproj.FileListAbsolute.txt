@@ -21,9 +21,7 @@ C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\Desa
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\scopedcss\bundle\PlannerSemanal.styles.css
-C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\scopedcss\projectbundle\PlannerSemanal.bundle.scp.css
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\PlannerSemanal.dll
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\refint\PlannerSemanal.dll
 C:\Users\thayl\OneDrive\Área de Trabalho\Developer\academiaDotNet_desafios\DesafioFinal\PlannerSemanal\obj\Debug\net6.0\PlannerSemanal.pdb

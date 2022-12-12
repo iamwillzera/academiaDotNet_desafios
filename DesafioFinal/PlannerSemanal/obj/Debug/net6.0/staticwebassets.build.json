@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/718jet7h9YP0UUgji4v/PRsvc4u2lS2fg9yjhbZ51A=",
+  "Hash": "OX1dXhRJDNRKQLuykaJG1QugWbfjVppJ7/XTtkHRTVA=",
   "Source": "PlannerSemanal",
   "BasePath": "_content/PlannerSemanal",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PlannerSemanal.styles.css",
-      "SourceId": "PlannerSemanal",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/PlannerSemanal",
-      "RelativePath": "PlannerSemanal.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PlannerSemanal.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PlannerSemanal.bundle.scp.css",
-      "SourceId": "PlannerSemanal",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/PlannerSemanal",
-      "RelativePath": "PlannerSemanal.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PlannerSemanal.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\wwwroot\\css\\site.css",
       "SourceId": "PlannerSemanal",

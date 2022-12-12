@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PlannerSemanal.bundle.scp.css",
-      "PackagePath": "staticwebassets\\PlannerSemanal.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

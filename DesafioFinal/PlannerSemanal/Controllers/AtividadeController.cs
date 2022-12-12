@@ -63,9 +63,9 @@ namespace PlannerSemanal.Controllers
             return View(atividade);
         }
         [HttpGet]
-        public async Task<IActionResult> AtualizarAtividade(int atividadeId)
+        public async Task<IActionResult> AtualizarAtividade(int AtividadeId)
         {
-            Atividade atividade = await _contexto.Atividades.FindAsync(atividadeId);
+            Atividade atividade = await _contexto.Atividades.FindAsync(AtividadeId);
 
             if (atividade == null)
                 return NotFound();
@@ -87,10 +87,9 @@ namespace PlannerSemanal.Controllers
         }
 
         [HttpPost]
-        public async Task<JsonResult> ExcluirAtividade(int atividadeId)
+        public async Task<JsonResult> ExcluirAtividade(int AtividadeId)
         {
-            Atividade atividade = await _contexto.Atividades.FindAsync(atividadeId);
-
+            Atividade atividade = await _contexto.Atividades.FindAsync(AtividadeId);
             _contexto.Atividades.Remove(atividade);
             await _contexto.SaveChangesAsync();
             return Json(true);
