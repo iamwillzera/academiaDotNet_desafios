@@ -31,7 +31,7 @@ namespace PlannerSemanal.Controllers
             {
                 data = new DataViewModel();
                 data.Data = dataAtual.ToShortDateString();
-                data.Identificadores = "collapse" + dataAtual.ToShortDateString().Replace("/", "");
+                data.Identificadores = "collapse" + dataAtual.ToShortDateString().Replace("/", "-");
                 listaDatas.Add(data);
                 qtdeDias = qtdeDias + 1;
                 dataAtual = DateTime.Now.AddDays(qtdeDias);
