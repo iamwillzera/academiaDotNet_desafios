@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\wwwroot\\bg_image.png",
+      "PackagePath": "staticwebassets\\bg_image.png"
+    },
+    {
       "Id": "C:\\Users\\thayl\\OneDrive\\Área de Trabalho\\Developer\\academiaDotNet_desafios\\DesafioFinal\\PlannerSemanal\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
