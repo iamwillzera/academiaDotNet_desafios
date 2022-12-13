@@ -63,6 +63,7 @@
                     data: { AtividadeId: AtividadeId },
                     dataType: "json",
                     success: function (data) {
+                        alert("Registro excluído com sucesso!");
                         $(".modal").modal('hide');
                         location.reload(true);
                     }
